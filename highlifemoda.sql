@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:3306
--- Generation Time: May 04, 2015 at 03:10 PM
+-- Generation Time: May 07, 2015 at 02:16 PM
 -- Server version: 5.5.38
 -- PHP Version: 5.3.29
 
@@ -133,10 +133,10 @@ CREATE TABLE `oc_attribute_description` (
 --
 
 INSERT INTO `oc_attribute_description` (`attribute_id`, `language_id`, `name`) VALUES
-(1, 1, 'Weight'),
-(2, 1, 'Height'),
-(4, 1, 'Size'),
-(3, 1, 'Width');
+(1, 2, 'Weight'),
+(2, 2, 'Height'),
+(4, 2, 'Size'),
+(3, 2, 'Width');
 
 -- --------------------------------------------------------
 
@@ -176,10 +176,10 @@ CREATE TABLE `oc_attribute_group_description` (
 --
 
 INSERT INTO `oc_attribute_group_description` (`attribute_group_id`, `language_id`, `name`) VALUES
-(3, 1, 'Attribute №3'),
-(4, 1, 'Attribute №2'),
-(6, 1, 'Attribute №1'),
-(5, 1, 'Attribute №4');
+(3, 2, 'Attribute №3'),
+(4, 2, 'Attribute №2'),
+(6, 2, 'Attribute №1'),
+(5, 2, 'Attribute №4');
 
 -- --------------------------------------------------------
 
@@ -242,11 +242,11 @@ CREATE TABLE `oc_banner_image_description` (
 --
 
 INSERT INTO `oc_banner_image_description` (`banner_image_id`, `language_id`, `banner_id`, `title`) VALUES
-(484, 1, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.99&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;25% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=59&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
-(483, 1, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.15&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;20% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=99&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
-(482, 1, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.99&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;23% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=81&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
-(481, 1, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.50&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;30% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=69&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
-(480, 1, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.89&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;25% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=68&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;');
+(484, 2, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.99&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;25% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=59&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
+(483, 2, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.15&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;20% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=99&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
+(482, 2, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.99&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;23% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=81&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
+(481, 2, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.50&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;30% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=69&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;'),
+(480, 2, 14, '&lt;div class=&quot;bann-price&quot;&gt; 	&lt;span class=&quot;first&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;second&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;third&quot;&gt;.89&lt;/span&gt;&lt;span class=&quot;four&quot;&gt;25% OFF&lt;/span&gt;     &lt;div class=&quot;name&quot;&gt;     	Lorem ipsum dolor sit amet conse ctetur ad- ipisicing elit     &lt;/div&gt;     &lt;span&gt;Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.&lt;/span&gt;     &lt;div class=&quot;but-container&quot;&gt;     	&lt;a href=&quot;index.php?route=product/category&amp;path=68&quot; class=&quot;banner-button&quot;&gt;Shop now!&lt;/a&gt;     &lt;/div&gt; &lt;/div&gt;');
 
 -- --------------------------------------------------------
 
@@ -305,19 +305,19 @@ CREATE TABLE `oc_category_description` (
 --
 
 INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `description`, `meta_description`, `meta_keyword`) VALUES
-(67, 1, 'Dolor sit', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(73, 1, 'BIKER T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(111, 1, 'SURF T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(62, 1, 'Conse ctetur', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(89, 1, 'Lorem ipsum ', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(68, 1, 'COOL T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(70, 1, 'DINER T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(69, 1, 'BAR T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(112, 1, 'COFFEE T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(81, 1, 'VINTAGE T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(59, 1, 'MUSIC T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(99, 1, 'FISHING T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(113, 1, 'BREWERY T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', '');
+(67, 2, 'Dolor sit', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(73, 2, 'BIKER T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(111, 2, 'SURF T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(62, 2, 'Conse ctetur', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(89, 2, 'Lorem ipsum ', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(68, 2, 'COOL T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(70, 2, 'DINER T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(69, 2, 'BAR T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(112, 2, 'COFFEE T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(81, 2, 'VINTAGE T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(59, 2, 'MUSIC T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(99, 2, 'FISHING T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(113, 2, 'BREWERY T-SHIRTS', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', '');
 
 -- --------------------------------------------------------
 
@@ -697,16 +697,14 @@ CREATE TABLE `oc_currency` (
   `value` float(15,8) NOT NULL,
   `status` tinyint(1) NOT NULL,
   `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `oc_currency`
 --
 
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
-(1, 'Pound Sterling', 'GBP', '£', '', '2', 0.66060001, 1, '2015-05-02 02:39:16'),
-(2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2015-05-02 02:39:46'),
-(3, 'Euro', 'EUR', '', '€', '2', 0.89279997, 1, '2015-05-02 02:39:16');
+(4, 'Real', 'BRL', 'R$ ', '', '2', 1.00000000, 1, '2015-05-07 14:13:53');
 
 -- --------------------------------------------------------
 
@@ -940,10 +938,10 @@ CREATE TABLE `oc_information_description` (
 --
 
 INSERT INTO `oc_information_description` (`information_id`, `language_id`, `title`, `description`) VALUES
-(5, 1, 'Terms &amp; Conditions', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n'),
-(3, 1, 'Privacy Policy', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n'),
-(6, 1, 'Delivery', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n'),
-(4, 1, 'About', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n');
+(5, 2, 'Terms &amp; Conditions', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n'),
+(3, 2, 'Privacy Policy', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n'),
+(6, 2, 'Delivery', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n'),
+(4, 2, 'About', '&lt;div class=&quot;about-page&quot;&gt;\r\n	&lt;h3&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;ul&gt;\r\n		&lt;li&gt;\r\n			Lorem ipsum dolor sit amet&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Conse ctetur&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Aadipisicing elit&lt;/li&gt;\r\n		&lt;li&gt;\r\n			Sed do eiusmod tempor&lt;/li&gt;\r\n	&lt;/ul&gt;\r\n&lt;/div&gt;\r\n&lt;div class=&quot;about-page-2&quot;&gt;\r\n	&lt;h3&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit&lt;/h3&gt;\r\n	&lt;p&gt;\r\n		Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		Dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;\r\n&lt;/div&gt;\r\n');
 
 -- --------------------------------------------------------
 
@@ -994,14 +992,14 @@ CREATE TABLE `oc_language` (
   `filename` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
   `sort_order` int(3) NOT NULL DEFAULT '0',
   `status` tinyint(1) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `oc_language`
 --
 
 INSERT INTO `oc_language` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `filename`, `sort_order`, `status`) VALUES
-(1, 'English', 'en', 'en_US.UTF-8,en_US,en-gb,english', 'gb.png', 'english', 'english', 1, 1);
+(2, 'Português (BR)', 'pt-br', 'pt_BR.UTF-8,pt_BR,pt-br,pt_br,portuguese,portugues', 'br.png', 'portuguese-br', 'portuguese-br', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -1097,9 +1095,9 @@ CREATE TABLE `oc_length_class_description` (
 --
 
 INSERT INTO `oc_length_class_description` (`length_class_id`, `language_id`, `title`, `unit`) VALUES
-(1, 1, 'Centimeter', 'cm'),
-(2, 1, 'Millimeter', 'mm'),
-(3, 1, 'Inch', 'in');
+(1, 2, 'Centimeter', 'cm'),
+(2, 2, 'Millimeter', 'mm'),
+(3, 2, 'Inch', 'in');
 
 -- --------------------------------------------------------
 
@@ -1199,17 +1197,17 @@ CREATE TABLE `oc_option_description` (
 --
 
 INSERT INTO `oc_option_description` (`option_id`, `language_id`, `name`) VALUES
-(1, 1, 'Radio'),
-(2, 1, 'Checkbox'),
-(4, 1, 'Text'),
-(6, 1, 'Textarea'),
-(8, 1, 'Date'),
-(7, 1, 'File'),
-(5, 1, 'Select'),
-(9, 1, 'Time'),
-(10, 1, 'Date &amp; Time'),
-(12, 1, 'Delivery Date'),
-(11, 1, 'Size');
+(1, 2, 'Radio'),
+(2, 2, 'Checkbox'),
+(4, 2, 'Text'),
+(6, 2, 'Textarea'),
+(8, 2, 'Date'),
+(7, 2, 'File'),
+(5, 2, 'Select'),
+(9, 2, 'Time'),
+(10, 2, 'Date &amp; Time'),
+(12, 2, 'Delivery Date'),
+(11, 2, 'Size');
 
 -- --------------------------------------------------------
 
@@ -1262,20 +1260,20 @@ CREATE TABLE `oc_option_value_description` (
 --
 
 INSERT INTO `oc_option_value_description` (`option_value_id`, `language_id`, `option_id`, `name`) VALUES
-(43, 1, 1, 'Large'),
-(32, 1, 1, 'Small'),
-(45, 1, 2, 'Checkbox 4'),
-(44, 1, 2, 'Checkbox 3'),
-(31, 1, 1, 'Medium'),
-(42, 1, 5, 'Yellow'),
-(41, 1, 5, 'Green'),
-(39, 1, 5, 'Red'),
-(40, 1, 5, 'Blue'),
-(23, 1, 2, 'Checkbox 1'),
-(24, 1, 2, 'Checkbox 2'),
-(48, 1, 11, 'Large'),
-(47, 1, 11, 'Medium'),
-(46, 1, 11, 'Small');
+(43, 2, 1, 'Large'),
+(32, 2, 1, 'Small'),
+(45, 2, 2, 'Checkbox 4'),
+(44, 2, 2, 'Checkbox 3'),
+(31, 2, 1, 'Medium'),
+(42, 2, 5, 'Yellow'),
+(41, 2, 5, 'Green'),
+(39, 2, 5, 'Red'),
+(40, 2, 5, 'Blue'),
+(23, 2, 2, 'Checkbox 1'),
+(24, 2, 2, 'Checkbox 2'),
+(48, 2, 11, 'Large'),
+(47, 2, 11, 'Medium'),
+(46, 2, 11, 'Small');
 
 -- --------------------------------------------------------
 
@@ -1347,7 +1345,6 @@ CREATE TABLE `oc_order` (
 --
 
 INSERT INTO `oc_order` (`order_id`, `invoice_no`, `invoice_prefix`, `store_id`, `store_name`, `store_url`, `customer_id`, `customer_group_id`, `firstname`, `lastname`, `email`, `telephone`, `fax`, `shipping_firstname`, `shipping_lastname`, `shipping_company`, `shipping_address_1`, `shipping_address_2`, `shipping_city`, `shipping_postcode`, `shipping_country`, `shipping_country_id`, `shipping_zone`, `shipping_zone_id`, `shipping_address_format`, `shipping_method`, `shipping_code`, `payment_firstname`, `payment_lastname`, `payment_company`, `payment_address_1`, `payment_address_2`, `payment_city`, `payment_postcode`, `payment_country`, `payment_country_id`, `payment_zone`, `payment_zone_id`, `payment_address_format`, `payment_method`, `payment_code`, `comment`, `total`, `order_status_id`, `affiliate_id`, `commission`, `language_id`, `currency_id`, `currency_code`, `currency_value`, `ip`, `forwarded_ip`, `user_agent`, `accept_language`, `date_added`, `date_modified`) VALUES
-(1, 0, 'INV-2011-00', 0, 'T-Shirt', 'http://osc2.loc/~meilleur/theme014/', 1, 8, 'admin', 'admin', 'admin@admin.com', '5465454644', '', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Flat Shipping Rate', 'flat.flat', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Cash On Delivery', 'cod', '', 126.4543, 1, 0, 0.0000, 1, 2, 'USD', 1.00000000, '192.168.1.1', '192.168.9.41', 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0', 'ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3', '2012-04-06 15:34:20', '2012-04-06 15:34:23'),
 (2, 0, 'INV-2011-00', 0, 'T-Shirt', 'http://osc2.loc/~meilleur/theme014/', 1, 8, 'admin', 'admin', 'admin@admin.com', '5465454644', '', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Flat Shipping Rate', 'flat.flat', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Cash On Delivery', 'cod', '', 39.2500, 0, 0, 0.0000, 1, 2, 'USD', 1.00000000, '192.168.1.1', '192.168.9.41', 'Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0', 'ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3', '2012-04-06 17:42:11', '2012-04-06 17:42:11'),
 (3, 0, 'INV-2011-00', 0, 'T-Shirt', 'http://osc2.loc/~meilleur/theme014/', 1, 8, 'admin', 'admin', 'admin@admin.com', '5465454644', '', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Flat Shipping Rate', 'flat.flat', 'admin', 'admin', '', 'sadasd', '', 'asdasd', '564514', 'United Kingdom', 222, 'Anglesey', 3515, '', 'Cash On Delivery', 'cod', '', 33.3750, 0, 0, 0.0000, 1, 2, 'USD', 1.00000000, '192.168.1.1', '192.168.9.41', 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727)', 'ru', '2012-04-09 10:08:03', '2012-04-09 10:08:03');
 
@@ -1444,13 +1441,6 @@ CREATE TABLE `oc_order_history` (
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
---
--- Dumping data for table `oc_order_history`
---
-
-INSERT INTO `oc_order_history` (`order_history_id`, `order_id`, `order_status_id`, `notify`, `comment`, `date_added`) VALUES
-(1, 1, 1, 1, '', '2012-04-06 15:34:23');
-
 -- --------------------------------------------------------
 
 --
@@ -1492,10 +1482,6 @@ CREATE TABLE `oc_order_product` (
 --
 
 INSERT INTO `oc_order_product` (`order_product_id`, `order_id`, `product_id`, `name`, `model`, `quantity`, `price`, `total`, `tax`, `reward`) VALUES
-(1, 1, 55, 'Lorem ipsum dolor sit amet', '34582', 1, 22.5600, 22.5600, 5.9480, 0),
-(2, 1, 54, 'Set magna ipsum dolor sit conse', '33524', 1, 20.0000, 20.0000, 5.5000, 0),
-(3, 1, 53, 'Aperce sit conse ipsum ctetur adipisi', '32893', 1, 26.5500, 26.5500, 6.6463, 0),
-(4, 1, 51, 'Dolor sit amet conse', '32522', 1, 25.0000, 25.0000, 6.3750, 0),
 (5, 2, 51, 'Dolor sit amet conse', '32522', 1, 25.0000, 25.0000, 6.3750, 0),
 (6, 3, 54, 'Set magna ipsum dolor sit conse', '33524', 1, 20.0000, 20.0000, 5.5000, 0);
 
@@ -1516,20 +1502,20 @@ CREATE TABLE `oc_order_status` (
 --
 
 INSERT INTO `oc_order_status` (`order_status_id`, `language_id`, `name`) VALUES
-(2, 1, 'Processing'),
-(3, 1, 'Shipped'),
-(7, 1, 'Canceled'),
-(5, 1, 'Complete'),
-(8, 1, 'Denied'),
-(9, 1, 'Canceled Reversal'),
-(10, 1, 'Failed'),
-(11, 1, 'Refunded'),
-(12, 1, 'Reversed'),
-(13, 1, 'Chargeback'),
-(1, 1, 'Pending'),
-(16, 1, 'Voided'),
-(15, 1, 'Processed'),
-(14, 1, 'Expired');
+(2, 2, 'Processing'),
+(3, 2, 'Shipped'),
+(7, 2, 'Canceled'),
+(5, 2, 'Complete'),
+(8, 2, 'Denied'),
+(9, 2, 'Canceled Reversal'),
+(10, 2, 'Failed'),
+(11, 2, 'Refunded'),
+(12, 2, 'Reversed'),
+(13, 2, 'Chargeback'),
+(1, 2, 'Pending'),
+(16, 2, 'Voided'),
+(15, 2, 'Processed'),
+(14, 2, 'Expired');
 
 -- --------------------------------------------------------
 
@@ -1552,11 +1538,6 @@ CREATE TABLE `oc_order_total` (
 --
 
 INSERT INTO `oc_order_total` (`order_total_id`, `order_id`, `code`, `title`, `text`, `value`, `sort_order`) VALUES
-(1, 1, 'sub_total', 'Sub-Total', '$94.11', 94.1100, 1),
-(2, 1, 'shipping', 'Flat Shipping Rate', '$5.00', 5.0000, 3),
-(3, 1, 'tax', 'Eco Tax (-2.00)', '$10.00', 10.0000, 5),
-(4, 1, 'tax', 'VAT (17.5%)', '$17.34', 17.3443, 5),
-(5, 1, 'total', 'Total', '$126.45', 126.4543, 9),
 (6, 2, 'sub_total', 'Sub-Total', '$25.00', 25.0000, 1),
 (7, 2, 'shipping', 'Flat Shipping Rate', '$5.00', 5.0000, 3),
 (8, 2, 'tax', 'Eco Tax (-2.00)', '$4.00', 4.0000, 5),
@@ -1649,11 +1630,11 @@ INSERT INTO `oc_product` (`product_id`, `model`, `sku`, `upc`, `location`, `quan
 (48, '25489', '', '', '', 988, 5, 'data/Pronto Blue Brown Sanchezs Restaurant Tee 1 copy.png', 8, 1, 10.0000, 0, 9, '2009-02-08', 1.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 2, 1, 1, 0, 1, '2009-02-08 17:21:51', '2012-03-13 16:17:06', 79),
 (49, '52463', '', '', '', 99, 8, 'data/Ohio State College T-Shirt 1 copy.png', 9, 1, 19.9900, 0, 9, '2011-04-25', 0.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2011-04-26 08:57:34', '2012-03-13 15:47:06', 30),
 (50, 'Product 22', '', '', '', 86, 5, 'data/UCLA College T-Shirt 1 copy.png', 8, 1, 65.0000, 0, 9, '2012-01-22', 200.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 11:43:47', '2012-03-13 16:29:30', 105),
-(51, '32522', '', '', '', 91, 5, 'data/Live Nation ACDC Gray T-Shirt 1 copy.png', 14, 1, 27.5500, 0, 9, '2012-01-22', 20.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 11:51:18', '2012-03-13 14:37:57', 159),
+(51, '32522', '', '', '', 92, 5, 'data/Live Nation ACDC Gray T-Shirt 1 copy.png', 14, 1, 27.5500, 0, 9, '2012-01-22', 20.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 11:51:18', '2012-03-13 14:37:57', 159),
 (52, '32562', '', '', '', 93, 5, 'data/Mad Gringo Mustard Tee 1 copy.png', 0, 1, 26.6500, 0, 9, '2012-01-22', 45.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 11:58:44', '2012-03-13 15:35:17', 34),
-(53, '32893', '', '', '', 83, 5, 'data/Funkalicious Print T-Shirt  2 copy.png', 5, 1, 28.5500, 0, 9, '2012-01-22', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:03:18', '2012-03-13 14:29:18', 38),
-(54, '33524', '', '', '', 94, 5, 'data/Pronto Blue White Graphic Tee 1 copy.png', 0, 1, 23.8500, 0, 9, '2012-01-22', 20.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:06:18', '2012-03-13 16:24:03', 156),
-(55, '34582', '', '', '', 94, 5, 'data/Penn State College T-Shirt 1 copy.png', 12, 1, 22.5600, 0, 9, '2012-01-22', 15.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:09:05', '2012-03-13 15:50:02', 127);
+(53, '32893', '', '', '', 84, 5, 'data/Funkalicious Print T-Shirt  2 copy.png', 5, 1, 28.5500, 0, 9, '2012-01-22', 5.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:03:18', '2012-03-13 14:29:18', 53),
+(54, '33524', '', '', '', 95, 5, 'data/Pronto Blue White Graphic Tee 1 copy.png', 0, 1, 23.8500, 0, 9, '2012-01-22', 20.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:06:18', '2012-03-13 16:24:03', 156),
+(55, '34582', '', '', '', 95, 5, 'data/Penn State College T-Shirt 1 copy.png', 12, 1, 22.5600, 0, 9, '2012-01-22', 15.00000000, 1, 0.00000000, 0.00000000, 0.00000000, 1, 1, 1, 1, 1, '2012-01-23 12:09:05', '2012-03-13 15:50:02', 127);
 
 -- --------------------------------------------------------
 
@@ -1673,102 +1654,102 @@ CREATE TABLE `oc_product_attribute` (
 --
 
 INSERT INTO `oc_product_attribute` (`product_id`, `attribute_id`, `language_id`, `text`) VALUES
-(43, 3, 1, '0.5 metr'),
-(42, 2, 1, '5 metr'),
-(43, 1, 1, '4 kg'),
-(42, 3, 1, '6 metr'),
-(47, 2, 1, '7 metr'),
-(30, 3, 1, '2 metr'),
-(54, 2, 1, '0.4 metr'),
-(28, 4, 1, '6 XL'),
-(43, 2, 1, '0.3 metr'),
-(42, 1, 1, '6 kg'),
-(44, 2, 1, '0.8 metr'),
-(31, 3, 1, '4 metr'),
-(29, 3, 1, '4 metr'),
-(49, 3, 1, '5 metr'),
-(33, 3, 1, '0.3 metr'),
-(41, 3, 1, '3 metr'),
-(36, 3, 1, '2 metr'),
-(34, 3, 1, '3 metr'),
-(55, 2, 1, '1 metr'),
-(28, 3, 1, '6 metr'),
-(31, 2, 1, '3 metr'),
-(33, 4, 1, '5 XLL'),
-(34, 4, 1, '3 XL'),
-(30, 2, 1, '1metr'),
-(47, 1, 1, '4 kg'),
-(53, 4, 1, '4 XL'),
-(55, 3, 1, '3 metr'),
-(54, 1, 1, '3kg'),
-(49, 4, 1, '2 XL'),
-(42, 4, 1, '5 XL'),
-(30, 4, 1, '5 XL'),
-(47, 3, 1, '2 metr'),
-(31, 4, 1, '4 XL'),
-(29, 4, 1, '5 XL'),
-(53, 3, 1, '0.3 metr'),
-(49, 2, 1, '3 metr'),
-(33, 2, 1, '0.6 metr'),
-(55, 1, 1, '2 kg'),
-(41, 4, 1, '4 XL'),
-(36, 2, 1, '1 metr'),
-(30, 1, 1, '4 kg'),
-(47, 4, 1, '4 XXL'),
-(28, 2, 1, '3 metr'),
-(43, 4, 1, '4 XLL'),
-(31, 1, 1, '4 kg'),
-(29, 2, 1, '4 metr'),
-(54, 3, 1, '0.6 metr'),
-(49, 1, 1, '3 kg'),
-(28, 1, 1, '4 kg'),
-(53, 2, 1, '0.5 metr'),
-(33, 1, 1, '4 kg'),
-(41, 2, 1, '3 metr'),
-(55, 4, 1, '2 XL'),
-(36, 4, 1, '3 XL'),
-(34, 2, 1, '1 metr'),
-(46, 2, 1, '0.5 metr'),
-(36, 1, 1, '3 kg'),
-(29, 1, 1, '3 kg'),
-(54, 4, 1, ' 6 XL'),
-(52, 2, 1, '0.5 metr'),
-(35, 3, 1, '3 metr'),
-(46, 1, 1, '3 kg'),
-(45, 2, 1, '0.5 metr'),
-(41, 1, 1, '4 kg'),
-(40, 2, 1, ' 2 metr'),
-(34, 1, 1, '2 kg'),
-(53, 1, 1, '3 kg'),
-(52, 1, 1, '2 kg'),
-(35, 4, 1, '3 XLL'),
-(51, 3, 1, ' 1 metr'),
-(44, 1, 1, '3 kg'),
-(50, 2, 1, '0.5 metr'),
-(48, 2, 1, ' 1 metr'),
-(48, 1, 1, '3 kg'),
-(50, 1, 1, '4 kg'),
-(51, 2, 1, '1 metr'),
-(45, 3, 1, '3 metr'),
-(40, 3, 1, '3 metr'),
-(48, 3, 1, '2 metr'),
-(35, 2, 1, '0.5 metr'),
-(50, 3, 1, '3 metr'),
-(44, 3, 1, '3 metr'),
-(51, 4, 1, ' 4 XL'),
-(45, 1, 1, '2 kg'),
-(46, 3, 1, '3 metr'),
-(52, 3, 1, '1 metr'),
-(40, 1, 1, '2 kg'),
-(44, 4, 1, 'L'),
-(51, 1, 1, '2 kg'),
-(45, 4, 1, '3 XL'),
-(46, 4, 1, '3 XL'),
-(52, 4, 1, '2 XLL'),
-(40, 4, 1, '4 XL'),
-(35, 1, 1, '4 kg'),
-(48, 4, 1, '3 XLL'),
-(50, 4, 1, '4 XL');
+(43, 3, 2, '0.5 metr'),
+(42, 2, 2, '5 metr'),
+(43, 1, 2, '4 kg'),
+(42, 3, 2, '6 metr'),
+(47, 2, 2, '7 metr'),
+(30, 3, 2, '2 metr'),
+(54, 2, 2, '0.4 metr'),
+(28, 4, 2, '6 XL'),
+(43, 2, 2, '0.3 metr'),
+(42, 1, 2, '6 kg'),
+(44, 2, 2, '0.8 metr'),
+(31, 3, 2, '4 metr'),
+(29, 3, 2, '4 metr'),
+(49, 3, 2, '5 metr'),
+(33, 3, 2, '0.3 metr'),
+(41, 3, 2, '3 metr'),
+(36, 3, 2, '2 metr'),
+(34, 3, 2, '3 metr'),
+(55, 2, 2, '1 metr'),
+(28, 3, 2, '6 metr'),
+(31, 2, 2, '3 metr'),
+(33, 4, 2, '5 XLL'),
+(34, 4, 2, '3 XL'),
+(30, 2, 2, '1metr'),
+(47, 1, 2, '4 kg'),
+(53, 4, 2, '4 XL'),
+(55, 3, 2, '3 metr'),
+(54, 1, 2, '3kg'),
+(49, 4, 2, '2 XL'),
+(42, 4, 2, '5 XL'),
+(30, 4, 2, '5 XL'),
+(47, 3, 2, '2 metr'),
+(31, 4, 2, '4 XL'),
+(29, 4, 2, '5 XL'),
+(53, 3, 2, '0.3 metr'),
+(49, 2, 2, '3 metr'),
+(33, 2, 2, '0.6 metr'),
+(55, 1, 2, '2 kg'),
+(41, 4, 2, '4 XL'),
+(36, 2, 2, '1 metr'),
+(30, 1, 2, '4 kg'),
+(47, 4, 2, '4 XXL'),
+(28, 2, 2, '3 metr'),
+(43, 4, 2, '4 XLL'),
+(31, 1, 2, '4 kg'),
+(29, 2, 2, '4 metr'),
+(54, 3, 2, '0.6 metr'),
+(49, 1, 2, '3 kg'),
+(28, 1, 2, '4 kg'),
+(53, 2, 2, '0.5 metr'),
+(33, 1, 2, '4 kg'),
+(41, 2, 2, '3 metr'),
+(55, 4, 2, '2 XL'),
+(36, 4, 2, '3 XL'),
+(34, 2, 2, '1 metr'),
+(46, 2, 2, '0.5 metr'),
+(36, 1, 2, '3 kg'),
+(29, 1, 2, '3 kg'),
+(54, 4, 2, ' 6 XL'),
+(52, 2, 2, '0.5 metr'),
+(35, 3, 2, '3 metr'),
+(46, 1, 2, '3 kg'),
+(45, 2, 2, '0.5 metr'),
+(41, 1, 2, '4 kg'),
+(40, 2, 2, ' 2 metr'),
+(34, 1, 2, '2 kg'),
+(53, 1, 2, '3 kg'),
+(52, 1, 2, '2 kg'),
+(35, 4, 2, '3 XLL'),
+(51, 3, 2, ' 1 metr'),
+(44, 1, 2, '3 kg'),
+(50, 2, 2, '0.5 metr'),
+(48, 2, 2, ' 1 metr'),
+(48, 1, 2, '3 kg'),
+(50, 1, 2, '4 kg'),
+(51, 2, 2, '1 metr'),
+(45, 3, 2, '3 metr'),
+(40, 3, 2, '3 metr'),
+(48, 3, 2, '2 metr'),
+(35, 2, 2, '0.5 metr'),
+(50, 3, 2, '3 metr'),
+(44, 3, 2, '3 metr'),
+(51, 4, 2, ' 4 XL'),
+(45, 1, 2, '2 kg'),
+(46, 3, 2, '3 metr'),
+(52, 3, 2, '1 metr'),
+(40, 1, 2, '2 kg'),
+(44, 4, 2, 'L'),
+(51, 1, 2, '2 kg'),
+(45, 4, 2, '3 XL'),
+(46, 4, 2, '3 XL'),
+(52, 4, 2, '2 XLL'),
+(40, 4, 2, '4 XL'),
+(35, 1, 2, '4 kg'),
+(48, 4, 2, '3 XLL'),
+(50, 4, 2, '4 XL');
 
 -- --------------------------------------------------------
 
@@ -1790,30 +1771,30 @@ CREATE TABLE `oc_product_description` (
 --
 
 INSERT INTO `oc_product_description` (`product_id`, `language_id`, `name`, `description`, `meta_description`, `meta_keyword`) VALUES
-(35, 1, 'Lorem ipsum dolor sit amet conse ctetur', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(29, 1, 'Lorem ipsum dolor sit conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(51, 1, 'Dolor sit amet conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(54, 1, 'Set magna ipsum dolor sit conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(55, 1, 'Lorem ipsum dolor sit amet', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(45, 1, 'Dolor sit conse ctetur adipisi set', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(46, 1, 'Doloramet set magna amet set', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(33, 1, 'Ecco mens casual', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(52, 1, 'Esse cillum dolore eu fugiat', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(40, 1, 'Gyllamn sticba', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(31, 1, 'Incididunt ut labore et dol', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(34, 1, 'Labore et dolore', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(49, 1, 'Lorem ipsum dolor', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(28, 1, 'Set magna ipsum dolor sit conse ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(53, 1, 'Aperce sit conse ipsum ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(44, 1, ' Ipsum dolor sit amet conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(30, 1, 'Eiusmod tempor', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(47, 1, 'Dolor sit amet', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(36, 1, 'Dolore esse cillum fugiat ', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(48, 1, 'Lorem ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(50, 1, 'ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(43, 1, 'Lorem ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(41, 1, 'Ecco enswom sucaal hpitc', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
-(42, 1, 'Lorem ipsum dolor sit conse ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', '');
+(35, 2, 'Lorem ipsum dolor sit amet conse ctetur', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(29, 2, 'Lorem ipsum dolor sit conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(51, 2, 'Dolor sit amet conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(54, 2, 'Set magna ipsum dolor sit conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(55, 2, 'Lorem ipsum dolor sit amet', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(45, 2, 'Dolor sit conse ctetur adipisi set', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(46, 2, 'Doloramet set magna amet set', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(33, 2, 'Ecco mens casual', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(52, 2, 'Esse cillum dolore eu fugiat', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(40, 2, 'Gyllamn sticba', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(31, 2, 'Incididunt ut labore et dol', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(34, 2, 'Labore et dolore', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(49, 2, 'Lorem ipsum dolor', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(28, 2, 'Set magna ipsum dolor sit conse ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(53, 2, 'Aperce sit conse ipsum ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(44, 2, ' Ipsum dolor sit amet conse', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(30, 2, 'Eiusmod tempor', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(47, 2, 'Dolor sit amet', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(36, 2, 'Dolore esse cillum fugiat ', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(48, 2, 'Lorem ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(50, 2, 'ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(43, 2, 'Lorem ipsum dolor sit amet conse ctetur adipisicing', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(41, 2, 'Ecco enswom sucaal hpitc', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+(42, 2, 'Lorem ipsum dolor sit conse ctetur adipisi', '&lt;div class=&quot;std&quot;&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Actually this part&lt;/strong&gt; of clothes is very unique and original. &lt;em&gt;It is a way of self-expression because nowadays&lt;/em&gt; making some logo or phrase has become very popular. Obviously that T-shirts are the part of modern culture and they have a great influence on teens because of their &lt;strong&gt;freedom and epatage&lt;/strong&gt;.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		The history of T-shirt is very interesting. &lt;strong&gt;The T-shirt&lt;/strong&gt; has been a part of clothing since ancient Egypt. A type of modern T-shirt was developed in England in the end of 19th century. The idea of a T-shirt came to the USA during the World War II when American soldiers saw the cotton undershirts of European soldiers. That is short story of T-shirts origin.&lt;/p&gt;\r\n	&lt;p&gt;\r\n		We are offering you our unique and original products. Our store has a largest choice of different high quality T-shirts. &lt;strong&gt;You can buy it&lt;/strong&gt; at fair price and get special discount which means that our shop is saving your money.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', '');
 
 -- --------------------------------------------------------
 
@@ -2207,15 +2188,15 @@ CREATE TABLE `oc_product_tag` (
   `product_id` int(11) NOT NULL,
   `language_id` int(11) NOT NULL,
   `tag` varchar(32) COLLATE utf8_bin NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=343 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=345 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `oc_product_tag`
 --
 
 INSERT INTO `oc_product_tag` (`product_tag_id`, `product_id`, `language_id`, `tag`) VALUES
-(341, 42, 1, 'test 1'),
-(342, 42, 1, 'test 2');
+(343, 42, 2, 'test 1'),
+(344, 42, 2, 'test 2');
 
 -- --------------------------------------------------------
 
@@ -2438,9 +2419,9 @@ CREATE TABLE `oc_return_action` (
 --
 
 INSERT INTO `oc_return_action` (`return_action_id`, `language_id`, `name`) VALUES
-(1, 1, 'Refunded'),
-(2, 1, 'Credit Issued'),
-(3, 1, 'Replacement Sent');
+(1, 2, 'Refunded'),
+(2, 2, 'Credit Issued'),
+(3, 2, 'Replacement Sent');
 
 -- --------------------------------------------------------
 
@@ -2474,11 +2455,11 @@ CREATE TABLE `oc_return_reason` (
 --
 
 INSERT INTO `oc_return_reason` (`return_reason_id`, `language_id`, `name`) VALUES
-(1, 1, 'Dead On Arrival'),
-(2, 1, 'Received Wrong Item'),
-(3, 1, 'Order Error'),
-(4, 1, 'Faulty, please supply details'),
-(5, 1, 'Other, please supply details');
+(1, 2, 'Dead On Arrival'),
+(2, 2, 'Received Wrong Item'),
+(3, 2, 'Order Error'),
+(4, 2, 'Faulty, please supply details'),
+(5, 2, 'Other, please supply details');
 
 -- --------------------------------------------------------
 
@@ -2497,9 +2478,9 @@ CREATE TABLE `oc_return_status` (
 --
 
 INSERT INTO `oc_return_status` (`return_status_id`, `language_id`, `name`) VALUES
-(1, 1, 'Pending'),
-(3, 1, 'Complete'),
-(2, 1, 'Awaiting Products');
+(1, 2, 'Pending'),
+(3, 2, 'Complete'),
+(2, 2, 'Awaiting Products');
 
 -- --------------------------------------------------------
 
@@ -2532,7 +2513,7 @@ CREATE TABLE `oc_setting` (
   `key` varchar(64) COLLATE utf8_bin NOT NULL DEFAULT '',
   `value` text COLLATE utf8_bin NOT NULL,
   `serialized` tinyint(1) NOT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=31119 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=31554 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `oc_setting`
@@ -2570,104 +2551,104 @@ INSERT INTO `oc_setting` (`setting_id`, `store_id`, `group`, `key`, `value`, `se
 (19410, 0, 'free_checkout', 'free_checkout_status', '1', 0),
 (19409, 0, 'free_checkout', 'free_checkout_order_status_id', '1', 0),
 (26529, 0, 'affiliate', 'affiliate_module', 'a:1:{i:0;a:4:{s:9:"layout_id";s:2:"10";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}}', 1),
-(31106, 0, 'config', 'config_fraud_detection', '0', 0),
-(31105, 0, 'config', 'config_alert_emails', '', 0),
-(31104, 0, 'config', 'config_account_mail', '0', 0),
-(31103, 0, 'config', 'config_alert_mail', '0', 0),
-(31102, 0, 'config', 'config_smtp_timeout', '5', 0),
-(31101, 0, 'config', 'config_smtp_port', '25', 0),
-(31100, 0, 'config', 'config_smtp_password', '', 0),
-(31099, 0, 'config', 'config_smtp_username', '', 0),
-(31097, 0, 'config', 'config_mail_parameter', '', 0),
-(31098, 0, 'config', 'config_smtp_host', '', 0),
-(31095, 0, 'config', 'config_image_cart_height', '84', 0),
+(31553, 0, 'config', 'config_google_analytics', '', 0),
+(31552, 0, 'config', 'config_error_filename', 'error.txt', 0),
+(31551, 0, 'config', 'config_error_log', '1', 0),
+(31550, 0, 'config', 'config_error_display', '0', 0),
+(31549, 0, 'config', 'config_compression', '0', 0),
+(31548, 0, 'config', 'config_encryption', '12345', 0),
 (26028, 0, 'account', 'account_module', 'a:4:{i:0;a:4:{s:9:"layout_id";s:1:"6";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:1;a:4:{s:9:"layout_id";s:2:"10";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:2;a:4:{s:9:"layout_id";s:1:"5";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"3";}i:3;a:4:{s:9:"layout_id";s:2:"11";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"3";}}', 1),
-(31096, 0, 'config', 'config_mail_protocol', 'mail', 0),
+(31547, 0, 'config', 'config_maintenance', '0', 0),
 (30852, 0, 'information', 'information_module', 'a:10:{i:0;a:4:{s:9:"layout_id";s:2:"11";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:1;a:4:{s:9:"layout_id";s:1:"5";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:2;a:4:{s:9:"layout_id";s:1:"8";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:3;a:4:{s:9:"layout_id";s:1:"7";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:4;a:4:{s:9:"layout_id";s:2:"10";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:5;a:4:{s:9:"layout_id";s:1:"4";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:6;a:4:{s:9:"layout_id";s:1:"2";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:7;a:4:{s:9:"layout_id";s:1:"9";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:8;a:4:{s:9:"layout_id";s:1:"3";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:9;a:4:{s:9:"layout_id";s:1:"1";s:8:"position";s:12:"column_right";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}}', 1),
-(31094, 0, 'config', 'config_image_cart_width', '70', 0),
-(31093, 0, 'config', 'config_image_wishlist_height', '72', 0),
-(31092, 0, 'config', 'config_image_wishlist_width', '60', 0),
+(31546, 0, 'config', 'config_seo_url', '0', 0),
+(31545, 0, 'config', 'config_use_ssl', '0', 0),
+(31544, 0, 'config', 'config_fraud_status_id', '7', 0),
 (30944, 0, 'cart', 'cart_module', 'a:4:{i:0;a:4:{s:9:"layout_id";s:1:"3";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:1;a:4:{s:9:"layout_id";s:1:"4";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:2;a:4:{s:9:"layout_id";s:1:"5";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}i:3;a:4:{s:9:"layout_id";s:1:"2";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}}', 1),
-(31091, 0, 'config', 'config_image_compare_height', '108', 0),
-(31090, 0, 'config', 'config_image_compare_width', '90', 0),
-(31089, 0, 'config', 'config_image_related_height', '144', 0),
-(31088, 0, 'config', 'config_image_related_width', '120', 0),
-(31087, 0, 'config', 'config_image_additional_height', '108', 0),
-(31086, 0, 'config', 'config_image_additional_width', '90', 0),
-(31085, 0, 'config', 'config_image_product_height', '144', 0),
-(31084, 0, 'config', 'config_image_product_width', '120', 0),
-(31083, 0, 'config', 'config_image_popup_height', '720', 0),
+(31543, 0, 'config', 'config_fraud_score', '', 0),
+(31542, 0, 'config', 'config_fraud_key', '', 0),
+(31541, 0, 'config', 'config_fraud_detection', '0', 0),
+(31540, 0, 'config', 'config_alert_emails', '', 0),
+(31539, 0, 'config', 'config_account_mail', '0', 0),
+(31538, 0, 'config', 'config_alert_mail', '0', 0),
+(31537, 0, 'config', 'config_smtp_timeout', '5', 0),
+(31536, 0, 'config', 'config_smtp_port', '25', 0),
 (30861, 0, 'featured', 'featured_product', '48,35,43', 0),
-(31082, 0, 'config', 'config_image_popup_width', '600', 0),
-(31081, 0, 'config', 'config_image_thumb_height', '360', 0),
-(31080, 0, 'config', 'config_image_thumb_width', '300', 0),
-(31079, 0, 'config', 'config_image_category_height', '60', 0),
-(31078, 0, 'config', 'config_image_category_width', '50', 0),
-(31077, 0, 'config', 'config_icon', 'data/favicon.png', 0),
-(31076, 0, 'config', 'config_logo', 'data/logo.png', 0),
-(31075, 0, 'config', 'config_cart_weight', '1', 0),
-(31074, 0, 'config', 'config_upload_allowed', 'jpg, JPG, jpeg, gif, png, txt', 0),
-(31073, 0, 'config', 'config_download', '1', 0),
-(31072, 0, 'config', 'config_review_status', '1', 0),
-(31071, 0, 'config', 'config_return_status_id', '2', 0),
-(31070, 0, 'config', 'config_complete_status_id', '5', 0),
-(31069, 0, 'config', 'config_order_status_id', '1', 0),
-(31068, 0, 'config', 'config_stock_status_id', '5', 0),
-(31067, 0, 'config', 'config_stock_checkout', '0', 0),
-(31066, 0, 'config', 'config_stock_warning', '0', 0),
-(31065, 0, 'config', 'config_stock_display', '0', 0),
+(31532, 0, 'config', 'config_mail_parameter', '', 0),
+(31533, 0, 'config', 'config_smtp_host', '', 0),
+(31534, 0, 'config', 'config_smtp_username', '', 0),
+(31535, 0, 'config', 'config_smtp_password', '', 0),
+(31529, 0, 'config', 'config_image_cart_width', '70', 0),
+(31530, 0, 'config', 'config_image_cart_height', '84', 0),
+(31531, 0, 'config', 'config_mail_protocol', 'mail', 0),
+(31528, 0, 'config', 'config_image_wishlist_height', '72', 0),
+(31527, 0, 'config', 'config_image_wishlist_width', '60', 0),
+(31526, 0, 'config', 'config_image_compare_height', '108', 0),
+(31525, 0, 'config', 'config_image_compare_width', '90', 0),
+(31523, 0, 'config', 'config_image_related_width', '120', 0),
 (30847, 0, 'bestseller', 'bestseller_module', 'a:1:{i:0;a:7:{s:5:"limit";s:1:"4";s:11:"image_width";s:2:"60";s:12:"image_height";s:2:"72";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"3";}}', 1),
 (30844, 0, 'category', 'category_module', 'a:11:{i:0;a:4:{s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:1;a:4:{s:9:"layout_id";s:1:"6";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:2;a:4:{s:9:"layout_id";s:2:"10";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:3;a:4:{s:9:"layout_id";s:1:"3";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:4;a:4:{s:9:"layout_id";s:1:"7";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:5;a:4:{s:9:"layout_id";s:1:"8";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:6;a:4:{s:9:"layout_id";s:1:"4";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:7;a:4:{s:9:"layout_id";s:2:"11";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:8;a:4:{s:9:"layout_id";s:1:"5";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:9;a:4:{s:9:"layout_id";s:1:"2";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}i:10;a:4:{s:9:"layout_id";s:1:"9";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}}', 1),
-(31064, 0, 'config', 'config_commission', '5', 0),
-(31063, 0, 'config', 'config_affiliate_id', '4', 0),
-(31062, 0, 'config', 'config_checkout_id', '5', 0),
-(31061, 0, 'config', 'config_account_id', '3', 0),
-(31060, 0, 'config', 'config_guest_checkout', '1', 0),
+(31524, 0, 'config', 'config_image_related_height', '144', 0),
+(31521, 0, 'config', 'config_image_additional_width', '90', 0),
+(31520, 0, 'config', 'config_image_product_height', '144', 0),
 (30860, 0, 'featured', 'product', '', 0),
-(31059, 0, 'config', 'config_customer_approval', '0', 0),
-(31058, 0, 'config', 'config_customer_price', '0', 0),
-(31057, 0, 'config', 'config_customer_group_id', '8', 0),
-(31056, 0, 'config', 'config_order_edit', '7', 0),
-(31055, 0, 'config', 'config_invoice_prefix', 'INV-2011-00', 0),
-(31054, 0, 'config', 'config_tax_customer', 'shipping', 0),
-(31052, 0, 'config', 'config_tax', '1', 0),
-(31053, 0, 'config', 'config_tax_default', 'shipping', 0),
-(31051, 0, 'config', 'config_admin_limit', '20', 0),
-(31049, 0, 'config', 'config_weight_class_id', '1', 0),
-(31050, 0, 'config', 'config_catalog_limit', '12', 0),
-(31048, 0, 'config', 'config_length_class_id', '1', 0),
+(31522, 0, 'config', 'config_image_additional_height', '108', 0),
+(31519, 0, 'config', 'config_image_product_width', '120', 0),
+(31518, 0, 'config', 'config_image_popup_height', '720', 0),
+(31516, 0, 'config', 'config_image_thumb_height', '360', 0),
+(31517, 0, 'config', 'config_image_popup_width', '600', 0),
+(31513, 0, 'config', 'config_image_category_width', '50', 0),
+(31514, 0, 'config', 'config_image_category_height', '60', 0),
 (30845, 0, 'special', 'special_module', 'a:1:{i:0;a:7:{s:5:"limit";s:1:"2";s:11:"image_width";s:2:"60";s:12:"image_height";s:2:"72";s:9:"layout_id";s:1:"1";s:8:"position";s:12:"column_right";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}}', 1),
 (30846, 0, 'sidebarsearch', 'sidebarsearch_module', 'a:1:{i:0;a:4:{s:9:"layout_id";s:1:"1";s:8:"position";s:11:"column_left";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}}', 1),
 (30851, 0, 'slideshow', 'slideshow_module', 'a:1:{i:0;a:7:{s:9:"banner_id";s:2:"14";s:5:"width";s:3:"260";s:6:"height";s:3:"372";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"content_top";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"1";}}', 1),
 (30856, 0, 'latest', 'latest_module', 'a:1:{i:0;a:7:{s:5:"limit";s:1:"6";s:11:"image_width";s:3:"163";s:12:"image_height";s:3:"196";s:9:"layout_id";s:1:"1";s:8:"position";s:11:"content_top";s:6:"status";s:1:"1";s:10:"sort_order";s:1:"2";}}', 1),
-(31107, 0, 'config', 'config_fraud_key', '', 0),
-(31047, 0, 'config', 'config_currency_auto', '1', 0),
-(31046, 0, 'config', 'config_currency', 'USD', 0),
-(31045, 0, 'config', 'config_admin_language', 'en', 0),
-(31044, 0, 'config', 'config_language', 'en', 0),
-(31043, 0, 'config', 'config_zone_id', '3563', 0),
-(31042, 0, 'config', 'config_country_id', '222', 0),
-(31041, 0, 'config', 'config_layout_id', '4', 0),
-(31040, 0, 'config', 'config_template', 'theme014', 0),
-(31039, 0, 'config', 'config_meta_description', 'T-Shirt', 0),
-(31038, 0, 'config', 'config_title', 'T-Shirt', 0),
-(31037, 0, 'config', 'config_fax', '+1 (234) 567-8901  ', 0),
-(31036, 0, 'config', 'config_telephone', '+1 (234) 567-8901 ', 0),
-(31035, 0, 'config', 'config_email', 'admin@admin.com', 0),
-(31034, 0, 'config', 'config_address', 'The Company Name Inc. 9870 St Vincent Place,\r\nGlasgow, DC 45 Fr 45.', 0),
-(31033, 0, 'config', 'config_owner', 'Owner', 0),
-(31032, 0, 'config', 'config_name', 'T-Shirt', 0),
-(31108, 0, 'config', 'config_fraud_score', '', 0),
-(31109, 0, 'config', 'config_fraud_status_id', '7', 0),
-(31110, 0, 'config', 'config_use_ssl', '0', 0),
-(31111, 0, 'config', 'config_seo_url', '0', 0),
-(31112, 0, 'config', 'config_maintenance', '0', 0),
-(31113, 0, 'config', 'config_encryption', '12345', 0),
-(31114, 0, 'config', 'config_compression', '0', 0),
-(31115, 0, 'config', 'config_error_display', '0', 0),
-(31116, 0, 'config', 'config_error_log', '1', 0),
-(31117, 0, 'config', 'config_error_filename', 'error.txt', 0),
-(31118, 0, 'config', 'config_google_analytics', '', 0);
+(31515, 0, 'config', 'config_image_thumb_width', '300', 0),
+(31512, 0, 'config', 'config_icon', '', 0),
+(31511, 0, 'config', 'config_logo', 'data/highlife/logo_300.png', 0),
+(31510, 0, 'config', 'config_cart_weight', '1', 0),
+(31509, 0, 'config', 'config_upload_allowed', 'jpg, JPG, jpeg, gif, png, txt', 0),
+(31508, 0, 'config', 'config_download', '1', 0),
+(31507, 0, 'config', 'config_review_status', '1', 0),
+(31506, 0, 'config', 'config_return_status_id', '2', 0),
+(31505, 0, 'config', 'config_complete_status_id', '5', 0),
+(31502, 0, 'config', 'config_stock_checkout', '0', 0),
+(31503, 0, 'config', 'config_stock_status_id', '5', 0),
+(31504, 0, 'config', 'config_order_status_id', '1', 0),
+(31501, 0, 'config', 'config_stock_warning', '0', 0),
+(31500, 0, 'config', 'config_stock_display', '0', 0),
+(31499, 0, 'config', 'config_commission', '5', 0),
+(31498, 0, 'config', 'config_affiliate_id', '4', 0),
+(31495, 0, 'config', 'config_guest_checkout', '1', 0),
+(31496, 0, 'config', 'config_account_id', '3', 0),
+(31497, 0, 'config', 'config_checkout_id', '5', 0),
+(31494, 0, 'config', 'config_customer_approval', '0', 0),
+(31492, 0, 'config', 'config_customer_group_id', '8', 0),
+(31493, 0, 'config', 'config_customer_price', '0', 0),
+(31491, 0, 'config', 'config_order_edit', '7', 0),
+(31490, 0, 'config', 'config_invoice_prefix', 'INV-2011-00', 0),
+(31489, 0, 'config', 'config_tax_customer', 'shipping', 0),
+(31488, 0, 'config', 'config_tax_default', 'shipping', 0),
+(31487, 0, 'config', 'config_tax', '1', 0),
+(31486, 0, 'config', 'config_admin_limit', '20', 0),
+(31485, 0, 'config', 'config_catalog_limit', '12', 0),
+(31484, 0, 'config', 'config_weight_class_id', '1', 0),
+(31483, 0, 'config', 'config_length_class_id', '1', 0),
+(31482, 0, 'config', 'config_currency_auto', '1', 0),
+(31481, 0, 'config', 'config_currency', 'BRL', 0),
+(31480, 0, 'config', 'config_admin_language', 'pt-br', 0),
+(31478, 0, 'config', 'config_zone_id', '464', 0),
+(31479, 0, 'config', 'config_language', 'pt-br', 0),
+(31477, 0, 'config', 'config_country_id', '30', 0),
+(31475, 0, 'config', 'config_template', 'theme014', 0),
+(31476, 0, 'config', 'config_layout_id', '4', 0),
+(31474, 0, 'config', 'config_meta_description', 'High Life Moda', 0),
+(31473, 0, 'config', 'config_title', 'High Life Moda', 0),
+(31471, 0, 'config', 'config_telephone', '+1 (234) 567-8901 ', 0),
+(31472, 0, 'config', 'config_fax', '+1 (234) 567-8901  ', 0),
+(31470, 0, 'config', 'config_email', 'fernando.mendes@webca.com.br', 0),
+(31469, 0, 'config', 'config_address', 'The Company Name Inc. 9870 St Vincent Place,\r\nGlasgow, DC 45 Fr 45.', 0),
+(31468, 0, 'config', 'config_owner', 'High Life Moda', 0),
+(31467, 0, 'config', 'config_name', 'High Life Moda', 0);
 
 -- --------------------------------------------------------
 
@@ -2686,10 +2667,10 @@ CREATE TABLE `oc_stock_status` (
 --
 
 INSERT INTO `oc_stock_status` (`stock_status_id`, `language_id`, `name`) VALUES
-(7, 1, 'In Stock'),
-(8, 1, 'Pre-Order'),
-(5, 1, 'Out Of Stock'),
-(6, 1, '2 - 3 Days');
+(7, 2, 'In Stock'),
+(8, 2, 'Pre-Order'),
+(5, 2, 'Out Of Stock'),
+(6, 2, '2 - 3 Days');
 
 -- --------------------------------------------------------
 
@@ -2840,14 +2821,15 @@ CREATE TABLE `oc_user` (
   `ip` varchar(15) COLLATE utf8_bin NOT NULL DEFAULT '',
   `status` tinyint(1) NOT NULL,
   `date_added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Dumping data for table `oc_user`
 --
 
 INSERT INTO `oc_user` (`user_id`, `user_group_id`, `username`, `password`, `firstname`, `lastname`, `email`, `code`, `ip`, `status`, `date_added`) VALUES
-(1, 1, 'admin', '0ba82f804d49683e88df7b48cc19fc49', '', '', 'fernando.mendes@webca.com.br', '', '127.0.0.1', 1, '2015-05-02 02:38:57');
+(1, 1, 'admin', '0ba82f804d49683e88df7b48cc19fc49', '', '', 'fernando.mendes@webca.com.br', '', '127.0.0.1', 1, '2015-05-02 02:38:57'),
+(2, 1, 'highlifemoda', '759ad60376d71ff86a5ab7b7aa994eb4', 'highlifemoda', 'highlifemoda', '', '', '', 1, '2015-05-07 13:23:03');
 
 -- --------------------------------------------------------
 
@@ -2941,9 +2923,9 @@ CREATE TABLE `oc_voucher_theme_description` (
 --
 
 INSERT INTO `oc_voucher_theme_description` (`voucher_theme_id`, `language_id`, `name`) VALUES
-(6, 1, 'Christmas'),
-(7, 1, 'Birthday'),
-(8, 1, 'General');
+(6, 2, 'Christmas'),
+(7, 2, 'Birthday'),
+(8, 2, 'General');
 
 -- --------------------------------------------------------
 
@@ -2984,10 +2966,10 @@ CREATE TABLE `oc_weight_class_description` (
 --
 
 INSERT INTO `oc_weight_class_description` (`weight_class_id`, `language_id`, `title`, `unit`) VALUES
-(1, 1, 'Kilogram', 'kg'),
-(2, 1, 'Gram', 'g'),
-(5, 1, 'Pound ', 'lb'),
-(6, 1, 'Ounce', 'oz');
+(1, 2, 'Kilogram', 'kg'),
+(2, 2, 'Gram', 'g'),
+(5, 2, 'Pound ', 'lb'),
+(6, 2, 'Ounce', 'oz');
 
 -- --------------------------------------------------------
 
@@ -7605,7 +7587,7 @@ MODIFY `coupon_product_id` int(11) NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `oc_currency`
 --
 ALTER TABLE `oc_currency`
-MODIFY `currency_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+MODIFY `currency_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `oc_customer`
 --
@@ -7660,7 +7642,7 @@ MODIFY `information_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
 -- AUTO_INCREMENT for table `oc_language`
 --
 ALTER TABLE `oc_language`
-MODIFY `language_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+MODIFY `language_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `oc_layout`
 --
@@ -7780,7 +7762,7 @@ MODIFY `product_special_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=741;
 -- AUTO_INCREMENT for table `oc_product_tag`
 --
 ALTER TABLE `oc_product_tag`
-MODIFY `product_tag_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=343;
+MODIFY `product_tag_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=345;
 --
 -- AUTO_INCREMENT for table `oc_return`
 --
@@ -7815,7 +7797,7 @@ MODIFY `review_id` int(11) NOT NULL AUTO_INCREMENT;
 -- AUTO_INCREMENT for table `oc_setting`
 --
 ALTER TABLE `oc_setting`
-MODIFY `setting_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=31119;
+MODIFY `setting_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=31554;
 --
 -- AUTO_INCREMENT for table `oc_stock_status`
 --
@@ -7850,7 +7832,7 @@ MODIFY `url_alias_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=774;
 -- AUTO_INCREMENT for table `oc_user`
 --
 ALTER TABLE `oc_user`
-MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `oc_user_group`
 --

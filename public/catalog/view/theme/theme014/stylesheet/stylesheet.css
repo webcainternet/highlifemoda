@@ -13,10 +13,11 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px;
 	padding: 0px;
-	background:url(../image/body-bg.jpg) fixed #000000;
+	background:url(../image/body-bg.jpg) #000000;
 	font-size:12px;
 	line-height:17px;
 	min-width:970px;
+	background-position-y: 150px;
 }
 td, th, input, textarea, select, a {
 	font-size: 12px;
@@ -206,7 +207,7 @@ label {
 }
 /* header */
 #header {
-	height:212px;
+	height:135px;
 	margin-bottom: 0px;
 	position: relative;
 	z-index: 99;
@@ -214,7 +215,7 @@ label {
 .common-home #header { margin-bottom:0;}
 #header #logo {
 	position: absolute;
-	top:90px;
+	top:50px;
 	left:0px;
 }
 #language {
@@ -304,7 +305,7 @@ label {
 #header #cart .heading  { text-align:left;}
 #header #cart .heading span {
 	padding:0px 5px 0px 0;
-	color: #8AB152;
+	color: #0297EC;
 	text-decoration: none;
 	font-size:12px;
 	display:block;
@@ -436,7 +437,7 @@ label {
 .cart-position { 
 	position:absolute; 
 	right:0; 
-	top:94px;
+	top:60px;
 }
 /****************************************************************************************************************************************************************************************/
 #header #welcome a{ 
@@ -470,7 +471,7 @@ label {
 	padding:0px 0 0 0;
 }
 
-.links a:hover{ color:#9ac759;}
+.links a:hover{ color:#0297EC;}
 .links li{ 
 	float:left;
 	padding:11px 17px 13px 17px;
@@ -715,7 +716,7 @@ label {
 	border-radius:5px 0 0 0;
 	z-index:99999;
 	}
-.new-products ul li:hover .price, .featured ul li:hover .price { background:#8ab152;}
+.new-products ul li:hover .price, .featured ul li:hover .price { background:#0297EC;}
 /*********************************************************************************************************************************************************************************/
 /*********************************************************************leftinfo***************************************************************************************************/
 #column-left .info , #column-right .info {padding:0;}
@@ -1125,7 +1126,7 @@ a.button-2 {
 	border-radius:2px 2px 2px 2px;
 }
 a.button-2:hover {	background: url('../image/button-bg.png') 0 bottom repeat-x #596b55; border-bottom-color:#4a5947;}
-a.button:hover span {	color:#aee75c;}
+a.button:hover span {	color:#0297EC;}
 
 .buttons {
 	overflow: auto;
@@ -3097,10 +3098,11 @@ background: url(../image/tail-manuf.gif)  0 0 repeat-x #F8F8F8;
 }
 #powered span { float:left; display:block; margin-top:30px;}
 .footer-logo {
-	background:url(../image/footer-logo.png) no-repeat;
-	width:219px;
-	height:47px;
-	float:left;
+	background: url(/image/data/highlife/logo_h90pb.png) no-repeat;
+	width: 219px;
+	height: 47px;
+	float: left;
+	background-size: 210px;
 	
 }	
 /*****************************************************************************************************************soclinks*******************************************************************************/

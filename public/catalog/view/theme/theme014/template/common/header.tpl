@@ -93,7 +93,6 @@ DD_belatedPNG.fix('#logo img');
               <li><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a></li>
               <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
               <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopcart; ?></a></li>
-              <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
               <li class="last"><?php if (!$logged) { ?>
       								<?php echo $text_welcome1; ?>
       							<?php } else { ?>
@@ -116,7 +115,7 @@ DD_belatedPNG.fix('#logo img');
       	  <?php echo $language; ?>
           
           
-          <div id="welcome">
+          <div id="welcome" style="display: none;">
               <?php if (!$logged) { ?>
               <?php echo $text_welcome; ?>
               <?php } else { ?>
