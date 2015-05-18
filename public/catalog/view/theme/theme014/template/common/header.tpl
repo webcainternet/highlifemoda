@@ -110,7 +110,7 @@ DD_belatedPNG.fix('#logo img');
       							<?php } ?></li>
             </ul>
         	<ul class="soc-links">
-                <li class="first"><a href="http://facebook.com">facebook</a></li>
+                <li class="second"><a href="http://facebook.com">facebook</a></li>
             </ul>
             <?php echo $currency; ?>
         </div>	
