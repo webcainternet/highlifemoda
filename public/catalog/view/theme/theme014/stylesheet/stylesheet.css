@@ -2166,6 +2166,7 @@ position:relative; margin-left:-5px;
 	font-size: 12px;
 	font-weight: normal;
 	padding-left:7px;
+	display: none;
 }
 .product-info .price .reward {
 	font-size: 13px !important;

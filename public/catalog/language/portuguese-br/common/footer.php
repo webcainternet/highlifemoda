@@ -15,5 +15,5 @@ $_['text_account']      = 'Minha Conta';
 $_['text_order']        = 'Histórico de Pedido';
 $_['text_wishlist']     = 'Lista de Desejos';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Desenvolvido por <a href="http://lojavirtual.digital" target="_blank">LojaVirtual.digital</a> - %s &copy; %s';
 ?>

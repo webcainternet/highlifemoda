@@ -42,6 +42,7 @@
   
 </div>
 <div class="wrapper">
+      <div style="margin: 20px;" class="fb-like" data-href="https://www.facebook.com/highlifemodas" data-colorscheme="dark" data-width="520" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
       <div id="powered"><div class="footer-logo"></div><span><?php echo $powered; ?></span></div>
   </div>
 </div>

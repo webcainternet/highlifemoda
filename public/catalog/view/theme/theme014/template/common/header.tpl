@@ -82,6 +82,16 @@ DD_belatedPNG.fix('#logo img');
 </script>
 <![endif]-->
 <link rel="stylesheet" type="text/css"href="catalog/view/theme/<?php echo $this->config->get('config_template');?>/stylesheet/livesearch.css"/>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=456589514493827";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <?php echo $google_analytics; ?>
 </head>
 <body class="<?php echo empty($this->request->get['route']) ? 'common-home' : str_replace('/', '-', $this->request->get['route']); ?>">
@@ -100,8 +110,7 @@ DD_belatedPNG.fix('#logo img');
       							<?php } ?></li>
             </ul>
         	<ul class="soc-links">
-            	<li class="first"><a href="http://twitter.com">twitter</a></li>
-                <li class="second"><a href="http://facebook.com">facebook</a></li>
+                <li class="first"><a href="http://facebook.com">facebook</a></li>
             </ul>
             <?php echo $currency; ?>
         </div>	
