@@ -150,7 +150,14 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
        <div class="clear"></div>
   </div>
     <?php if ($logo) { ?>
-    <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+    <div style="float: left;" id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+
+    <div style="float: left;
+  position: absolute;
+  top: 90px;
+  left: 455px;
+  font-size: 14px;
+  color: #FFFFFF;">Enviamos para todo o Brasil</div>
     <?php } ?>
     <?php if ($categories) { ?>
     <div id="menu">
