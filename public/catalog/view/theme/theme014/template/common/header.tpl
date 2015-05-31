@@ -156,8 +156,8 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
   position: absolute;
   top: 90px;
   left: 455px;
-  font-size: 14px;
-  color: #FFFFFF;">Enviamos para todo o Brasil</div>
+    font-size: 20px;
+  color: #FFFF00;">Enviamos para todo o Brasil</div>
     <?php } ?>
     <?php if ($categories) { ?>
     <div id="menu">
